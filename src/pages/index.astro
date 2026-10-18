@@ -1,0 +1,73 @@
+---
+import TopBar from '../components/TopBar.astro';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+import '../styles/global.css';
+---
+
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Frontend Static Site - Portfolio Showcase</title>
+		<meta name="description" content="Ultra-fast static site optimized for SEO." />
+	</head>
+	<body class="bg-white text-gray-800 antialiased font-sans flex flex-col min-h-screen">
+		
+		<TopBar />
+		<Header />
+
+		<main class="max-w-3xl mx-auto px-4 py-6 md:py-10 grow">
+			
+			<div class="section-badge">
+				ABOUT
+			</div>
+
+			<div class="space-y-6 text-sm md:text-base leading-relaxed text-gray-800 text-justify">
+				
+				<p>
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+				</p>
+
+				<div class="chart-card">
+					<p class="source-text">Source: free abc, Author: free</p>
+					<div class="image-frame">
+						[ Chart / Image Placeholder ]
+					</div>
+					<p class="source-text">Source: free abc, Author: free</p>
+				</div>
+
+				<ul class="report-list">
+					<li>Scientist Ben</li>
+					<li>Scientist kindergartners</li>
+					<li>Scientist a University Principal Person</li>
+					<li>Scientist Part.</li>
+				</ul>
+
+				<p>
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis.
+				</p>
+				
+				<p>
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sed felis eget velit aliquet sagittis id consectetur purus ut.
+				</p>
+
+				<div class="chart-card">
+					<p class="source-text">Source: free abc, Author: free</p>
+					<div class="image-frame">
+						[ Chart / Image Placeholder ]
+					</div>
+					<p class="source-text">Source: free abc, Author: free</p>
+				</div>
+
+				<p>
+					Lorem ipsum dolor sit amet, co. Cras interdum pretium feugiat. Aliquam nec efficitur erat. Pellentesque nisl mi, varius non tristique eget, pulvinar.
+				</p>
+				
+			</div>
+		</main>
+
+		<Footer />
+	</body>
+</html>
